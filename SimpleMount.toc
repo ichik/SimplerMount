@@ -1,6 +1,9 @@
 ## Interface: 30200
 ## Title : SimpleMount
 ## Notes: Simplifies Mounting Macros
-## Author: Rum
+## Author: Rum (wih tweaks by ichik)
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
 
 SimpleMount.lua
