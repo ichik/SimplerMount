@@ -1,4 +1,4 @@
-## Interface: 30200
+## Interface: 40000
 ## Title : SimpleMount
 ## Notes: Simplifies Mounting Macros
 ## Author: Rum (wih tweaks by ichik)
