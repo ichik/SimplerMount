@@ -1,0 +1,10 @@
+## Interface: 40000
+## Version: 1.0
+## Title : |cffffffffSimpler|rMount
+## Notes: Simplifies Mounting Macros
+## Author: ichik (based on Stuck's addon)
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+SimplerMount.lua
