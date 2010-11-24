@@ -25,9 +25,9 @@ SlashCmdList["USEMOUNT"] = function(msg)
 			if IsMounted() then
 				Dismount()
 			elseif not InCombatLockdown() then
-				if SecureCmdOptionParse("[flyable] t; f") == "t" and IsSpellKnown(90267) then
+				if SecureCmdOptionParse("[flyable] t; f") == "t" and ((IsSpellKnown(90267) and (GetCurrentMapContinent()==1 or GetCurrentMapContinent()==2)) or (GetCurrentMapContinent()==4 and IsSpellKnown(54197)) or (GetCurrentMapContinent()==3 and (IsSpellKnown(34090) or IsSpellKnown(90265) or IsSpellKnown(34091))))then
 					CastSpellByName(fly)
-				elseif GetZoneText() == WINTERGRASP and GetWintergraspWaitTime() and IsSpellKnown(90267) then
+				elseif GetZoneText() == WINTERGRASP and GetWintergraspWaitTime() and IsSpellKnown(54197) then
 					CastSpellByName(fly)
 				else
 					CastSpellByName(nofly)

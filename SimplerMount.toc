@@ -1,5 +1,5 @@
 ## Interface: 40000
-## Version: 1.01
+## Version: 1.01a
 ## Title : |cffffffffSimpler|rMount
 ## Notes: Simplifies Mounting Macros
 ## Author: ichik (based on Stuck's addon)
